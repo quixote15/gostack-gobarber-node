@@ -104,3 +104,16 @@ ort )
 4- Instalar os plugins: Eslint e Prettier
 
 5- instalar o prettier e criar arquivo de configuração
+
+
+# Enviando emails
+
+Existem diversos Serviços de email:
+
+ - Amazon SES
+ - mailgun
+ - sparkpost
+ - mandril
+ - Mailtrap (Somente Para ambientes de desenvolvimento)
+
+ Neste projeto foi utilizado a biblioteca nodemailer.
