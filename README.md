@@ -2,8 +2,16 @@
 
 Instalar o postgres, MongoDB e Redis:
 
+  1- Postgres
+
     $ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 
+  2- MongoDB
+     docker run --name some-mongo -p 27017:27017 -d -t mongo
+
+  3- Redis
+
+    docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
 # Lições aprendidas
 
 
