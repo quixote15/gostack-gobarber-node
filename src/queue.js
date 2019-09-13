@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import Queue from './lib/Queue';
 /**
  * This queue is outside the project
