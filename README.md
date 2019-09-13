@@ -1,3 +1,8 @@
+# Instalação
+
+Instalar o postgres, MongoDB e Redis:
+
+    $ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 
 # Lições aprendidas
 
