@@ -1,4 +1,4 @@
-require('dotenv');
+require('dotenv').config();
 /**
  *  Para utilizar o postgres é necessário instalar o pg e pg-hstore
  */
