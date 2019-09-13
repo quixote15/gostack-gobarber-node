@@ -1,6 +1,11 @@
 # Instalação
 
-Instalar o postgres, MongoDB e Redis:
+### 1. Clonar e instalar dependencias:
+    git clone https://github.com/quixote15/gostack-gobarber-node.git
+    cd gostack-gobarber-node && yarn
+
+
+#### 2. Depois disso é necessário Instalar o postgres, MongoDB e Redis:
 
   1- Postgres
 
@@ -13,6 +18,14 @@ Instalar o postgres, MongoDB e Redis:
   3- Redis
 
     docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
+### 3. Configurar variaveis de ambiente
+
+Este projeto utiliza algumas variáveis de ambiente para configurar as conexões com bancos de dados, bibliotecas e aplicações externas.
+
+Portanto, na raiz do projeto você deve criar um arquivo '.env' e configurar as variáveis.
+
+Existe um arquivo chamado '.env.exemple' que contém todas a variáveis necessárias.
+
 # Lições aprendidas
 
 
