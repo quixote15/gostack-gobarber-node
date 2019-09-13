@@ -117,3 +117,11 @@ Existem diversos Serviços de email:
  - Mailtrap (Somente Para ambientes de desenvolvimento)
 
  Neste projeto foi utilizado a biblioteca nodemailer.
+
+Enviar emails geralmente leva mais tempo que outras operações normal no backend. Assim, travar a execução do código para esperar o envio de email não é nada performatico. A melhor forma de lidar com isso é com Background Jobs e Filas.
+
+Para isso foi utilizado:
+
+- Redis
+- BeeQueue
+
